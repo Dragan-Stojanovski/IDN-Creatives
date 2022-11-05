@@ -107,7 +107,7 @@ h6 {
 #header .logo img {
   padding: 0;
   margin: 0;
-  max-height: 100px;
+  max-height: 80px;
 }
 
 /*--------------------------------------------------------------
@@ -411,6 +411,7 @@ h6 {
 
   #hero .hero-img {
     text-align: center;
+    margin-top:70px;
   }
 
   #hero .hero-img img {
@@ -1551,6 +1552,11 @@ height:100px;
 @media (max-width: 992px) {
   .breadcrumbs {
     margin-top: 72px;
+  }
+  #header .logo img {
+    padding: 0;
+    margin: 0;
+    max-height: 40px;
   }
 }
 
